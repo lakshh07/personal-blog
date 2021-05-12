@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+<h1><%= storedTitle %></h1>
+<p><%= storedContent %></p>
+<br /><br /><br />
+<form action="/delete" method="post">
+  <button
+    type="submit"
+    name="blogId"
+    value="<%= storedId %>"
+    class="btn btn-danger"
+  >
+    Delete
+  </button>
+</form>
+<%- include("partials/footer") %>
