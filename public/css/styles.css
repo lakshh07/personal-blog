@@ -17,6 +17,9 @@
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
+.heading {
+  padding-top: 15px;
+}
 .para {
   padding: 10px;
 }
